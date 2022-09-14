@@ -1,0 +1,30 @@
+/* Colores del proyecto */
+:root{
+    --bg-header:#353A40 ;
+    --azul-claro:#2E62A6;
+    --azul-oscuro: #205B73;
+}
+
+/* Header */
+.header__logo{
+    max-width: 7rem;
+}
+
+.bg-header{
+    background-color: var(--bg-header);
+}
+
+/* Hero */
+.hero-bg{
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../img/ba1.jpg");
+    background-size: cover;
+    background-position: center center;
+    height: 100vh;
+}
+
+.hero-bg .container{
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
