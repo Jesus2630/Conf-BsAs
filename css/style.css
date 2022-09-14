@@ -3,7 +3,34 @@
     --bg-header:#353A40 ;
     --azul-claro:#2E62A6;
     --azul-oscuro: #205B73;
+    --blanco: #ffffff;
+    --color-succes:#95BF3B;
+    --color-succes_alt: #678720;
 }
+
+/* Globales */
+
+ul{
+    list-style: none;
+}
+
+a{
+    color: var(--blanco);
+    text-decoration: none;
+}
+
+.btn-verde{
+    background-color: var(--color-succes);
+    color: var(--blanco);
+    border: none;
+    padding: .5rem;
+    border-radius: .5rem;
+}
+.btn-verde:hover{
+    background-color: var(--color-succes_alt);
+    color: var(--blanco);
+}
+
 
 /* Header */
 .header__logo{
@@ -27,4 +54,13 @@
     display: flex;
     flex-direction: column;
     justify-content: center;
+}
+
+/* Footer */
+.footer-bg{
+    background: var(--azul-oscuro);
+}
+
+footer a:hover{
+    color: #333;
 }
